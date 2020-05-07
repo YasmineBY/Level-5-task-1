@@ -17,7 +17,7 @@ data class Note (
 
     @ColumnInfo(name="lastUpdated")
 //    var lastUpdated : Date,
-    var lastUpdated : String,
+    var lastUpdated : Date,
 
     @ColumnInfo(name="text")
     var text : String,
@@ -25,5 +25,5 @@ data class Note (
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name="id")
-    var id : Long
+    var id : Long? = null
 ): Parcelable
