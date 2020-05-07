@@ -12,7 +12,7 @@ import com.example.level5task1att2.model.Note
 interface NoteDao {
 
     @Insert
-    suspend fun insertNote(note: ContactsContract.CommonDataKinds.Note)
+    suspend fun insertNote(note: Note)
 
     @Query("SELECT * FROM Note LIMIT 1")
     fun getNotepad(): LiveData<Note?>
