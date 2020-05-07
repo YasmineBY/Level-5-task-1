@@ -3,4 +3,6 @@
     <string name="mypersonalnote">My personal notepad</string>
     <string name="lastupdated">Last updated</string>
     <string name="todo">Things I want to do today</string>
+    <string name="last_updated">Last updated: %1s</string>
+
 </resources>
